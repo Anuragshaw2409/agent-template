@@ -1,11 +1,10 @@
-# AI Talk Full-Stack Application
+# AI Agent Full-Stack Application
 
 A full-stack web application built with **React** (frontend) and **Express.js** (backend) that facilitates AI-powered conversations. This app allows users to interact with an AI model for dynamic and intelligent dialogue.
 
 ## Features
 
 - **AI-Powered Conversations**: Chat with an AI model for real-time responses.
-- **User Authentication**: Secure login and registration functionality.
 - **RESTful API**: Backend built with Express.js, providing clean and organized API routes.
 - **State Management**: Efficient state handling using React hooks and context.
 - **Responsive Design**: Fully responsive UI built with modern CSS frameworks.
@@ -34,7 +33,7 @@ A full-stack web application built with **React** (frontend) and **Express.js** 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Anuragshaw2409/agent-template.git
-   cd ai-talk-app
+   cd agent-template
    ```
 
 2. **Install dependencies**
@@ -55,7 +54,7 @@ A full-stack web application built with **React** (frontend) and **Express.js** 
    
    Create a `.env` file in the `server` directory and add:
    ```env
-   PORT=5000
+   PORT=3000
    ```
 
 4. **Run the application**
@@ -79,19 +78,17 @@ A full-stack web application built with **React** (frontend) and **Express.js** 
 ## Folder Structure
 
 ```
-ai-talk-app/
+agent-template/
 ├── client/               # React frontend
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
-│   │   ├── services/
 │   │   └── App.js
 │   └── package.json
 │
 └── server/               # Express backend
     ├── controllers/
-    ├── models/
     ├── routes/
     ├── utils/
     ├── app.js
@@ -106,9 +103,6 @@ ai-talk-app/
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
